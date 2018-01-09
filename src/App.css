@@ -1,0 +1,233 @@
+body{
+  color: #fff;
+  font-family: 'Montserrat',
+  sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.yellow {
+  color: #fed136;
+}
+
+.light-gray {
+  color: #868e96;
+}
+
+.navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.Kaushan-Script{
+  font-family: 'Kaushan Script',
+  cursive;
+  font-size: 1.75em;
+  color: #fed136;
+  flex: 1;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+.nav-collapse {
+  flex: inherit;
+}
+
+.show-for-smaller-display {
+  display: none;
+  float: right;
+  font-size: 12px;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  background-color: #fed136;
+  border-radius: .25rem;
+  position: relative;
+  right: 131px;
+  top: 7px;
+  font-family: Montserrat,
+  'Helvetica Neue',
+  Helvetica,
+  Arial,
+  sans-serif;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+.menu-li {
+  padding: 0 3em 0em 0;
+}
+
+.app-container {
+  background: url(/static/media/header-bg.e2d2a51c.jpg) transparent;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.intro {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.services {
+  color: #000;
+}
+
+.center {
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.section-sub-heading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+}
+
+.column {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+@media (max-width: 991px) {
+  .app-container {
+    background: transparent;
+  }
+  .masthead {
+      background: url(/static/media/header-bg.e2d2a51c.jpg) transparent;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  .navbar {
+    background-color: #2D2D2F;
+    padding: 0px;
+    height: 56px;
+  }
+  .Kaushan-Script {
+    font-size: 1.25rem;
+    padding: 10px 0px;
+  }
+  .nav-collapse {
+    flex: 1;
+  }
+  .menu-li {
+    padding: 0 1em 0em 0px;
+  }
+  .hide-for-smaller-display {
+    display: none;
+  }
+  .show-for-smaller-display {
+    display: inline-block;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .show-for-smaller-display {
+    right: 15px;
+  }
+  .container {
+    max-width: 755px;
+  }
+}
